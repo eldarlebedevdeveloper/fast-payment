@@ -1,0 +1,24 @@
+{
+    "id": "68",
+    "name": "FastPaymentEurope2",
+    "mainParameters": {
+        "email": {
+            "caption": "Email"
+        },
+        "password": {
+            "caption": "Password"
+        }
+    },
+    "paymentMethods": {
+        "standard": {
+            "currencies": {
+                "REN": {
+                    "min": 10,
+                    "max": 10000
+                }                          
+            }
+        }
+    },
+    "paymentCurrencyField": ["min"],
+    "claimFields": []
+} 
